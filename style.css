@@ -1,0 +1,51 @@
+body {
+  background-color: #e9ecef;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 18px;;
+}
+
+.intro, 
+.ingredients, 
+.directions {
+  text-align: center;
+  margin: auto;
+}
+
+.ingredients, .directions {
+  border: 2px;
+  border-style: solid;
+  border-color: #e63946;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #457b9d;
+}
+
+h3 {
+  margin: 0;
+  color: #e63946;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
